@@ -1,0 +1,85 @@
+body{
+	background: white;
+	font-family: verdana;
+}
+h1{
+	float: left;
+}
+
+
+
+
+#naviBar{
+	
+	position: absolute;
+}
+
+#naviBar a {
+	float: left;
+	color: #black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+
+#naviBar a.active{
+	background-color: #4CAF50;
+	color: white;
+}
+
+#mainContent{
+	width: 100%;
+	float: left;
+}
+
+p.main{
+	text-align: left;
+}
+
+.topNav{
+	overflow: hidden;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropBtn{
+	font-size: 17px;
+}
+
+.dropdown .dropBtn {
+	font-size: 17px;
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	background-color: inherit;
+	margin: 0;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropBtn{
+	color: blue;
+}	
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
